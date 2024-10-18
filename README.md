@@ -1,0 +1,2 @@
+- 由于hunter_se_gazebo功能包中的xacro文件依赖hunter_se_description功能包中的特定路径下的stl文件，因此urdf文件中将写死stl的绝对路径，
+为了在不同的环境下一键运行，推荐使用gazebo_jiajie_xacro.launch.py
